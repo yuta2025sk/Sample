@@ -22,11 +22,11 @@ public class Person {
 	public void sayAge() {
 
 		if (age < 20) {
-			System.out.println(this.name + "はこれから成長期です。");
+			System.out.println(this.name + "はまだまだこれからです。");
 		} else if (age >= 20 && age <= 50) {
 			System.out.println(this.name + "は働き盛りです。");
 		} else {
-			System.out.println(this.name + "はもう引退です");
+			System.out.println(this.name + "はもう引退です。");
 		}
 
 	}
